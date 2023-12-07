@@ -14,6 +14,7 @@ function EventList(props) {
           location={event.location}
           date={event.date}
           image={event.image}
+          address={event.address}
         />
       ))}
     </ul>
